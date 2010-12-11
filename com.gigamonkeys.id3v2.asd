@@ -11,7 +11,7 @@
   :licence "BSD"
   :description "ID3v2 parser. "
   :long-description ""
+  :depends-on (:com.gigamonkeys.binary-data :com.gigamonkeys.pathnames)
   :components
   ((:file "packages")
-   (:file "id3v2" :depends-on ("packages")))
-  :depends-on (:com.gigamonkeys.binary-data :com.gigamonkeys.pathnames))
+   (:file "id3v2" :depends-on ("packages"))))
